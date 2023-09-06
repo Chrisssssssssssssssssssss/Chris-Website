@@ -1,0 +1,211 @@
+@media only screen
+and (max-width : 1700px) {
+/* Header */
+.logo_con{position: relative;height: 0;}
+/* Nav */
+nav ul{display: flex; justify-content: center;}
+}
+
+@media only screen
+and (max-width : 1500px) {
+.wrapper{padding: 0 20px;}
+/* Header */
+.header_info{right: 20px;}
+.logo_con{left: 20px;}
+/* Main */
+.main_con div:last-child{width: 49%;}
+
+/* Bottom */
+.btm1_con div:first-child{width: 53%;}
+}
+
+@media only screen
+and (max-width:1400px){
+/* Banner */
+.nh-banner{height: auto;}
+/* Main */
+.main_con div:last-child {width: 45%;}
+
+/* bottom */
+.btm1_con div:first-child{width: 49%;}
+}
+
+@media only screen 
+and (max-width:1300px) {
+  /* Main */
+  .main_con{justify-content: space-between;}
+  .main_con div:first-child{width: 100%;max-width: 550px;}
+  .main_con div:last-child {width: 45%;}
+  
+  /* Bottom */
+  .btm1_con div:last-child {width: 100%;   max-width: 550px; }
+}
+
+@media only screen
+and (max-width : 1200px) {
+/* Banner */
+.bnr_info{width: 373px; bottom: -675px;}
+.bnr_info h2{font-size: 45px;}
+.bnr_info p{font-size: 20px;}
+
+/* bottom */
+.btm1_con div:last-child{max-width: 500px;}
+
+/* Other  NH*/
+.nh_serv_con section{width: 39%;}
+}
+
+/* Large Tablet Devices */
+@media only screen
+and (max-width : 1090px) {
+  html, body{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none; /* Webkit */
+    -moz-user-select: none;    /* Firefox */
+    -ms-user-select: none;     /* IE 10  */
+  }
+  /* Nav */
+  nav ul li a{padding: 0 10px;}
+  nav ul{top: 19px; position: relative;}
+  /* Banner */
+  .slider{width: 500px;top: 170px;}
+  .rslides img{width: 500px;}
+
+  /* Main */
+    .main_con div:first-child{max-width: 500px;}
+
+  /* Bottom */
+  .btm1_con div:last-child{max-width: 490px;}
+}
+
+@media only screen
+and (max-width : 1024px) {
+   /* Nav Area Sub-Menu Style */
+   nav li.menu-item-has-children > span{display:block;}
+   nav li > span{display:block;}
+   nav ul ul, nav ul ul li, nav ul ul li a {width:100%;}
+   nav ul ul li a {line-height: 50px;}
+   nav ul li:hover > ul{display: none;}
+}
+
+@media only screen
+and (max-width : 1000px) {
+
+  /*Header Area*/
+  header {padding: 20px 12px;}
+  .logo_con {   position: relative;   height: auto;top: -48px; }
+  .logo_1 img {filter: unset;}
+.header_info {   float: unset;   position: relative;   right: 0; top: 20px;}
+
+  /*Nav Area*/
+  nav{clear: both; height:auto;margin:auto;padding: 30px 10px;transition:none; position:relative; width:100%; right:0; top:0; font-size: 0;}
+  nav ul{ margin:0; text-align:center;top: 0;}
+  nav ul li{width: 32%; text-align: center; border:1px solid #fff; margin:0px 2px 6px !important;}
+  nav ul li:after{content: "";}
+  nav ul li a{line-height: 50px;}
+.slider{width: 100%;float: unset;top: 0;height: 100%;}
+  /*Banner Area*/
+  #banner{text-align:center; height:auto; margin:0; padding: 0;}
+  #banner .wrapper{padding: 0;}
+.bnr_info {   width: 100%;   bottom: 0;   position: static; padding: 60px 20px; }
+.bnr_info a{margin: 0 auto;}
+#banner::after {left: 50%; transform: translateX(-50%);}
+.nh-banner{width: 150%;}
+.page_title h2{width: 100vw; left: 50%; position: relative; transform: translateX(-50%);}
+  /*Main Area*/
+  #main_area{padding:65px 0; margin:0; background: #7ba7a8;;}
+ main{color: #fff;margin-top: 60px;}
+.main_con div {width: 100% !important;max-width: 100% !important; }
+.main_con div section img{float: unset; margin: 0;}
+.main_con div:first-child{margin: 0 auto; text-align: center;}
+main a{outline: 1px solid #fff;}
+main a:hover{background:#fff;color:#7ba7a8;}
+.btm1_con div:first-child{width: 100%;}
+.btm1_con div:last-child {display: none; }
+  /*Bottom Area*/
+  #bottom1{}
+    .btm1_con p{margin: 49px 0 0;}
+    .btm1_con section{width:32%; margin:0 3px 8px!important;}
+
+  /*Footer Area*/
+  footer{}
+
+}
+
+@media only screen
+and (max-width : 800px) {
+  /* Header Area */
+  .logo{float: none; margin: 0;}
+  .logo_con{top: 0;left: 0;}
+  
+  .header_info{text-align: center; padding: 10px; float: none;top: 0;}
+  .header_info ul{justify-content: center;}
+  /* Nav Area */
+  .nav_toggle{display:block;padding: 21px 15px;}
+  nav {width: 280px;position: fixed;top: 0;right: -280px;height: 100%;background: #999999;transition: all 0.7s ease;overflow-y: scroll;padding: 0 0 30px;opacity: 0;}
+	nav ul{margin: 0; padding: 0;display: block;}
+	nav ul li{width: 100%; display: block; margin: 0 auto !important;border: none;border-bottom: 1px solid #f8f8f8;text-align: left;}
+	nav ul li:last-child{border-bottom: none;}
+
+	nav ul ul{width:100%; position:relative;  transition:none;}
+	nav ul ul li {border:none; width:100%;}
+
+  /* Toggle Style */
+  .toggle_right_nav {position: fixed;top: 0;left: 0;right: 0;width:100%;height: 100%;z-index: 1000;visibility: hidden; transition: all 0.7s ease;}
+  .toggle_nav_close {position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 2;}
+  .toggle_right_cont {visibility: visible;background: rgba(0,0,0,0.9);}
+  .toggle_right_style {right: 0;opacity: 1;z-index: 45;}
+  .logo_slide_right {display: inline-block;vertical-align: middle;width: calc(100% - 139px);}
+
+  .menu_slide_right {display: block;text-align: left;padding: 20px 10px;background: #fff;position: relative;}
+  .menu_slide_right small {display: inline-block;vertical-align: middle;font-size: 40px;font-weight: bold;color: #000;line-height: 100%;text-align: right;width: 90px;cursor: pointer;position: absolute;top: 50%;right: 10px;transform: translate(0,-50%);}
+  .menu_slide_right small:hover{color: red;}
+  /*Footer Area*/
+
+
+  /* Other NH */
+  .nh_serv_con section{width: 48%;}
+
+}
+
+/* Smartphones */
+@media only screen
+and (max-width : 600px) {
+
+  /*Banner Area*/
+  .mobi_ban{display: block;}
+
+  /*Main Area*/
+    main h1{line-height: 100%;}
+
+  /*Bottom Area*/
+  .btm1_con h2{line-height: 100%;}
+  .btm1_con section{margin:0 auto 8px!important; width: 100%}
+
+  #bottom2{padding: 60px 0;}
+  .btm2_con h2{line-height: 100%;}
+
+  /*Footer Area*/
+
+  /*Others*/
+  .col2, .col3{-webkit-column-count: 1; -moz-column-count: 1; column-count: 1; -webkit-column-gap: 0; -moz-column-gap: 0;  column-gap: 0;}
+  .thumb_left_dd, .thumb_right_dd, .thumb_center_dd{display: none;}
+  main .bullet{padding-left:10px;}
+  .back_top{background: url(../images/back_top.png) no-repeat center #000; position: fixed; bottom: 10px; right: 10px; width: 43px; height: 43px; cursor: pointer; border-radius: 50%; z-index: 999;}
+  .back_top:hover{opacity: .6;}
+
+  /* Other NH */
+  .nh_serv_con section {   width: 96%; }
+  .nh_serv_con section div{text-align: center;}
+
+}
+
+/*@media only screen
+and (max-width : xxx) {}*/
+  /*Header Area*/
+  /*Nav Area*/
+  /*Banner Area*/
+  /*Middle Area*/
+  /*Main Area*/
+  /*Bottom Area*/
+  /*Footer Area*/
