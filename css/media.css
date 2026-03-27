@@ -166,6 +166,17 @@ and (max-width : 800px) {
   /* Other NH */
   .nh_serv_con section{width: 48%;}
 
+  #nonhome_main_area hr{
+    margin-top: 55px;
+  }
+
+  .nh_portfol_smm_ads a{
+    font-size: 20px;
+    width: 360px;
+    padding: 20px;
+    margin: 54px auto 0;
+  }
+
 }
 
 /* Smartphones */
@@ -197,6 +208,17 @@ and (max-width : 600px) {
   /* Other NH */
   .nh_serv_con section {   width: 96%; }
   .nh_serv_con section div{text-align: center;}
+
+  .nh_portfol_smm_ads a {
+    font-size: 13px;
+    width: 250px;
+    padding: 10px;
+    margin: 55px auto 0;
+  }
+
+  #nonhome_main_area hr{
+    margin-top: 48px;
+  }
 
 }
 

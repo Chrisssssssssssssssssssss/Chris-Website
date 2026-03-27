@@ -176,7 +176,7 @@ main a:hover {   background: #d7d7d7;color:#7ba7a8; }
 .nh_serv_con {   display: flex;   flex-wrap: wrap;   justify-content: center;   gap: 15px;margin-top: 50px; }
 .page_title h2 {background: #7ba7a88c;	color: #fff;padding: 20px;	font-size: 30px;text-align: center;}
 .nh_serv_con section {   width: 24%;box-shadow: 0 0 5px #7ba7a8; }
-#nonhome_main_area{padding: 20px 20px 70px;	min-height: 400px;}
+#nonhome_main_area{padding: 65px 20px 70px 20px;	min-height: 400px;}
 .nh_serv_con section div {	padding: 20px;}
 .nh_serv_con section:hover h2 {	color: #fff;}
 .nh_serv_con section:hover p {	color: #fff;}
@@ -191,33 +191,41 @@ main a:hover {   background: #d7d7d7;color:#7ba7a8; }
 .owl-nav button span:hover{opacity: .75;}
 .port-slide section h2 {   font-size: 27px;   margin: 22px auto 8px; }
 
-.nh_contact_con ul {
- display: block;
- text-align: center;
-}
+.nh_contact_con ul { display: block; text-align: center;}
 
-.nh_contact_con ul li {
-  margin: 20px 0 0 0;
-  display: block;
-}
+.nh_contact_con ul li {  margin: 20px 0 0 0;  display: block;}
 
-.nh_contact_con ul li::before {
-  content: "\2022 ";
-}
+.nh_contact_con ul li::before {  content: "\2022 ";}
 
-.nh_contact_con ul li a {
-  margin-left: 5px;
-  text-decoration: none;
-  color: #000;
-  font-size: 21px;
-}
+.nh_contact_con ul li a {  margin-left: 5px;  text-decoration: none;  color: #000;  font-size: 21px;}
 
-.nh_contact_con ul li a:hover {
-  color: #7ba7a8;
-  text-decoration: underline;
-}
+.nh_contact_con ul li a:hover {  color: #7ba7a8;  text-decoration: underline;}
 
 .nh_about_con p {
   font-size: 16px;
   margin-top: 30px;
 }
+
+.nh_portfol_smm_ads a {
+  text-decoration: none;
+  font-size: 30px;
+  text-align: center;
+  margin: 117px auto;
+  display: block;
+  background: #7ba7a8;
+  color: #fff;
+  padding: 40px;
+  border-radius: 30px;
+  width: 650px;
+  font-weight: 600;
+}
+
+.nh_portfol_smm_ads a:hover{
+	opacity: .75;
+}
+
+#nonhome_main_area hr {
+  margin-top: 97px;
+  color: #7ba7a8;
+}
+
