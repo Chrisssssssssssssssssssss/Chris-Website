@@ -190,3 +190,34 @@ main a:hover {   background: #d7d7d7;color:#7ba7a8; }
 .owl-nav button span {   background: #7ba7a8;   color: #fff;   padding: 6px 14px;   border-radius: 50%; }
 .owl-nav button span:hover{opacity: .75;}
 .port-slide section h2 {   font-size: 27px;   margin: 22px auto 8px; }
+
+.nh_contact_con ul {
+ display: block;
+ text-align: center;
+}
+
+.nh_contact_con ul li {
+  margin: 20px 0 0 0;
+  display: block;
+}
+
+.nh_contact_con ul li::before {
+  content: "\2022 ";
+}
+
+.nh_contact_con ul li a {
+  margin-left: 5px;
+  text-decoration: none;
+  color: #000;
+  font-size: 21px;
+}
+
+.nh_contact_con ul li a:hover {
+  color: #7ba7a8;
+  text-decoration: underline;
+}
+
+.nh_about_con p {
+  font-size: 16px;
+  margin-top: 30px;
+}
